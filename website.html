@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Researcher</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #0056b3;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background-color: #003d7a;
+            overflow: hidden;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1em;
+            padding: 10px 15px;
+            display: block;
+        }
+        nav ul li a:hover {
+            background-color: #002952;
+            border-radius: 5px;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .about, .research, .publications, .contact {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #0056b3;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+        p {
+            line-height: 1.6em;
+            font-size: 1.1em;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact form input, .contact form textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        .contact form button {
+            padding: 10px;
+            border: none;
+            background-color: #0056b3;
+            color: #fff;
+            font-size: 1.1em;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact form button:hover {
+            background-color: #003d7a;
+        }
+        footer {
+            background-color: #0056b3;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Your Name</h1>
+        <p>Researcher | Scientist | Academic</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>Introduce yourself here. Briefly describe your background, research interests, and any significant achievements or positions you hold. This section should give visitors a clear understanding of who you are as a researcher.</p>
+        </section>
+
+        <section id="research" class="research">
+            <h2>Research</h2>
+            <p>Detail your current research interests, past projects, and future goals. Include any relevant information that highlights the importance and impact of your work.</p>
+        </section>
+
+        <section id="publications" class="publications">
+            <h2>Publications</h2>
+            <p>List your most significant publications here. You might consider linking to the full papers or including a brief abstract for each publication.</p>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <p>If you would like to get in touch, please use the form below.</p>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
